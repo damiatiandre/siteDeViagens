@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Conheça o Antigo Interior Paulista</title>
+</head>
+<body>
+    <header class="container-fluid p-2 bg-warning text-center">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="#">Antigo Interior</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Taxas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"><i class="bi bi-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+        <div class="container"> 
+            <div class="py-5 text-center"> <!--ALTERAR A IMAGEM PARA UMA LOGO QUE FAREI-->
+                <img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <h2>Pagamento</h2>
+                <p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-muted">Carrinho</span>
+                    <span class="badge badge-secondary badge-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Pacote de viagem 1</h6>
+                        <small class="text-muted">Descrição do Produto</small>
+                    </div>
+                    <span class="text-muted">R$599,00</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Produto 2</h6>
+                        <small class="text-muted">Descrição do Produto</small>
+                    </div>
+                    <span class="text-muted">R$8,00</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h6 class="my-0">Protudo 3</h6>
+                        <small class="text-muted">Descrição do Produto</small>
+                    </div>
+                    <span class="text-muted">R$5,00</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Código Promocional</h6>
+                        <small>INTERIOR</small>
+                    </div>
+                    <span class="text-success">-R$100</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (BRD)</span>
+                    <strong>R$20,00</strong>
+                    </li>
+                </ul>
+
+                <form class="card p-2">
+                    <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary">Adicionar código</button>
+                    </div>
+                    </div>
+                </form>
+                </div>
+                <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Endereço de Cobrança</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Nome</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                        Precisa adicionar um Nome válido.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Sobrenome</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                        Precisa adicionar um Sobrenome válido.
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="username">Nome de usuário</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Nome de usuário" required>
+                        <div class="invalid-feedback" style="width: 100%;">
+                        Precisa adicionar um nome de usuário.
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="seuemail@email.com">
+                    <div class="invalid-feedback">
+                        Por gentileza adicionar um endereço de email válido.
+                    </div>
+                    </div>
+
+                    <div class="mb-3">
+                    <label for="address">Endereço</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="invalid-feedback">
+                        Adicione seu endereço de cobrança.
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">País</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                        <option value="">Selecione seu País...</option>
+                        <option>Brasil</option>
+                        <option>Estados Unidos</option>
+                        <option>Argentina</option>
+                        <option>Uruguai</option>
+                        <option>México</option>
+                        <option>Canadá</option>
+                        <option>Colômbia</option>
+
+                        </select>
+                        <div class="invalid-feedback">
+                        Por gentileza selecione um país.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">Estado</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                        <option value="">Selecione seu Estado...</option>
+                        <option>Acre</option>
+                        <option>Alagoas</option>
+                        <option>Amapá</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Ceará</option>
+                        <option>Espírito Santo</option>
+                        <option>Goiás</option>
+                        <option>Maranhão</option>
+                        <option>Mato Grosso</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Minas Gerais</option>
+                        <option>Pará</option>
+                        <option>Paraíba</option>
+                        <option>Paraná</option>
+                        <option>Pernambuco</option>
+                        <option>Piauí</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Rio Grande do Norte</option>
+                        <option>Rio Grande do Sul</option>
+                        <option>Rondônia</option>
+                        <option>Roraima</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Sergipe</option>
+                        <option>Tocantins</option>
+                        <option>Distrito Federal</option>
+
+                        </select>
+                        <div class="invalid-feedback">
+                        Por gentileza selecione seu Estado.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zip">CEP</label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required>
+                        <div class="invalid-feedback">
+                        Digite seu CEP.
+                        </div>
+                    </div>
+                    </div>
+                    <hr class="mb-4">   
+                    <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Salvar informações para compras futuras</label>
+                    </div>
+                    <hr class="mb-4">
+
+                    <h4 class="mb-3">Pagamento</h4>
+
+                    <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                        <label class="custom-control-label" for="credit">Cartão de Crédito</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="debit">Cartão de Débito</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="pix" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="pix">Pix</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Nome do Cartão</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                        <small class="text-muted">Nome idêntico ao que está no cartão</small>
+                        <div class="invalid-feedback">
+                        Digite o nome do cartão.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Número do Cartão</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                        <div class="invalid-feedback">
+                        Digite o número do cartão.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">Data de Expiração</label>
+                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                        <div class="invalid-feedback">
+                        Digite a data de Expiração.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration">CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                        <div class="invalid-feedback">
+                        Digite o código de segurança.
+                        </div>
+                    </div>
+                    </div>
+                    <hr class="mb-4">
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Finalizar Compra</button>
+                </form>
+                </div>  
+            </div>
+
+
+        
+    <footer class="container-fluid bg-warning text-center p-2">
+        <p>Desenvolvido por Andrezito</p>
+    </footer>
+</body>
+    
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas Compras</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body"> Produto adicionado ao carrinho!</div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Finalizar Compra</button>
+            <button type="button" class="btn btn-success">Continuar Comprando</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Conheça o Antigo Interior Paulista</title>
+</head>
+<body>
+    <header class="container-fluid p-2 bg-warning text-center">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="#">Antigo Interior</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Taxas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark"><i class="bi bi-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/carousel/1.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Conheça a mais profunda natureza</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/2.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cachoeiras incriveis</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/carousel/3.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Paz e espiritualidade</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="container-fluid bg-light text-center p-2">
+        <h2>Conheça nossos pacotes</h2>
+        <p>Lorem ipsum dolor.</p>
+
+        <div class="card-deck">
+            <div class="card border-warning">
+                <img class="card-img-top" src="./img/batista-botelho.png" alt="Foto da cidade de Batista Botelho">
+                <div class="card-body">
+                <h5 class="card-title">Batista Botelho - SP</h5>
+                <h1 class="card-subtitle text-muted">R$ 790,00</h1>
+                <p class="card-text">Incluso passagem de ônibus, hospedagem e passeio a cachoeira escondida, fábrica de Café Rinaldi, cidade histórica e visita a galeria de troféus no Bar do Toninho</p>
+                <p class="card-text"><small class="text-muted">Em até 12x sem juros</small></p>
+
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+            </div>
+            <div class="card border-warning">
+                <img class="card-img-top" src="./img/manduri.png" alt="Foto da cidade de Manduri">
+                <div class="card-body">
+                <h5 class="card-title">Manduri - SP</h5>
+                <h1 class="card-subtitle text-muted">R$ 599,90</h1>
+                <p class="card-text">Incluso passagem de ônibus, hospedagem e passeio ao horto florestal</p>
+                <p class="card-text"><small class="text-muted">Em até 12x sem juros</small></p>
+
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+            </div>
+            <div class="card border-warning">
+                <img class="card-img-top" src="./img/oleo.png" alt="Foto da cidade de Óleo">
+                <div class="card-body">
+                <h5 class="card-title">Óleo - SP</h5>
+                <h1 class="card-subtitle text-muted">R$ 380,00</h1>
+                <p class="card-text">Incluso passagem de ônibus, hospedagem e passeio pela cidade, mirante do Cristo</p>
+                <p class="card-text"><small class="text-muted">Em até 12x sem juros</small></p>
+
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+            </div>
+            </div>
+
+    </section>
+
+    <section class="container-fluid bg-warning text-center p-2">
+        <h2>Taxas e Serviços</h2>
+        <caption>
+            Veja nossas taxas e serviços disponíveis
+        </caption>
+        <table class="table table-warning table-striped table-hover table-bordered border-warning">
+            <thead class="table-secondary">
+                <th>Serviço</th>    
+                <th>Valor</th>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$ 500,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Passagens</td>
+                    <td>R$ 150,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de Carros</td>
+                    <td>R$ 290,00</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </section>
+
+    <section class="container-fluid bg-light p-2">
+        <h2 class="text-center"> Faça seu orçamento</h2>
+        <form method="get" action="">
+
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" placeholder="email@email.com" name="email" id="email" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="dataIda">Data de Ida</label>
+                    <input type="date" name="dataIda" id="dataIda" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="dataVolta">Data de Volta</label>
+                    <input type="date" name="dataVolta" id="dataVolta" class="form-control">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+
+                <div class="form-check">
+                    <input type="checkbox" name="passagens" value="passagens" class="form-check-input" id="compraPassagens">
+                    <label class="form-check-label" for="compraPassagens">
+                        Compra de Passagens
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" name="hospedagem" value="hospedagem" class="form-check-input" id="reserva">
+                    <label class="form-check-label" for="reserva">
+                        Reserva de hospedagem
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" name="veiculo" value="veiculo" class="form-check-input" id="aluguel">
+                    <label class="form-check-label" for="aluguel">
+                        Aluguel de Veículos
+                    </label>
+                </div>    
+            </fieldset>
+
+            <label>Comentário</label><br>
+            <textarea rows="7" cols="50"  name="Comentário"></textarea>
+            <br><br>
+            <button class="btn btn-warning">Salvar</button>
+            
+        </form>
+    </section>
+
+    <footer class="container-fluid bg-warning text-center p-2">
+        <p>Desenvolvido por Andrezito</p>
+    </footer>
+</body>
+    
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas Compras</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body"> Produto adicionado ao carrinho!</div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Contnuar Comprando</button>
+            <a href="checkout.html" type="button" class="btn btn-primary">Finalizar Compra</a>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
